@@ -32,7 +32,7 @@ const Navbar = () => {
 
   return (
     
-      <nav className="flex-end fixed z-[12] top-0 right-0 text justify-end items-end  ">
+      <nav className="flex-end fixed z-[12] top-0 righ text justify-end items-end  ">
         {/* logo */}
      
         
