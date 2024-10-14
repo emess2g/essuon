@@ -89,7 +89,7 @@ const Projects = () => {
                   <h1 className="text-[1.125rem] mb-1">{project.name}</h1>
                   <Link to={project.gitSource}>{project.gitSvg}</Link>
                   </div>
-                  <p className="text-[#a1a1aa] text-center mb-2 text-[.85rem]">
+                  <p className="text-[#a1a1aa] xl:text-start text-center mb-2 text-[.85rem]">
                     {project.detail}
                   </p>
                   
