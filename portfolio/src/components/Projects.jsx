@@ -66,7 +66,7 @@ const Projects = () => {
     <div>
          <section className="">
         <header className="flex justify-between items-center mb-8">
-        <Link to='/' className="flex border text-sm text-[#a1a1aa] font-semibold bg-[#212121] focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground hover:bg-[#1a58b7] group p-2 xl:p-2 xl:px-4 xs:w-fit flex items-center gap-2 bg-card rounded-md">       
+        <Link to='/home' className="flex border text-sm text-[#a1a1aa] font-semibold bg-[#212121] focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground hover:bg-[#1a58b7] group p-2 xl:p-2 xl:px-4 xs:w-fit flex items-center gap-2 bg-card rounded-md">       
              <span>
                 / home
              </span>
