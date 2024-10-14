@@ -4,7 +4,8 @@ import About from './components/About'
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-// import Projects from "./components/Projects";
+import Projects from "./components/Projects";
+
 function App() {
  
 
@@ -15,13 +16,13 @@ function App() {
         {/* <ScrollToTop /> */}
         <div className=" ">
           <div className="   ">
-            <Navbar />        
+            {/* <Navbar />         */}
           </div>
           <div className="">
             <Routes>
               <Route path="/" element={<Home />} exact />
               <Route path="/about" element={<About />} />
-              {/* <Route path="/projects" element={<Projects />} /> */}
+              <Route path="/projects" element={<Projects />} />
               {/* <Route path="/blog" element={<Blog />} /> */}
               {/* <Route path="/contact" element={<Contact />} /> */}
               {/* <Route path="/getinvolve" element={<GetInvolve />} /> */}
