@@ -10,7 +10,7 @@ const Stack = () => {
 
       <>
         <ul class="grid grid-cols-2 xl:flex gap-2 flex-wrap">
-          <li>
+          {/* <li>
             <div
               class="border text-xs font-semibold bg-[#212121] focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground hover:bg-[#1a58b7] p-4 xs:p-2 xs:px-4 xs:w-fit flex items-center gap-2 bg-card rounded-md"
               data-state="closed"
@@ -72,7 +72,7 @@ const Stack = () => {
               </svg>{" "}
               <h6 class="text-md">Redux Toolkit</h6>
             </div>
-          </li>
+          </li> */}
           <li>
             <div
               class="border text-xs font-semibold bg-[#212121] focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground hover:bg-[#1a58b7] p-4 xs:p-2 xs:px-4 xs:w-fit flex items-center gap-2 bg-card rounded-md"
