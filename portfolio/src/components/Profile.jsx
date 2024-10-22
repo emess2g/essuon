@@ -79,9 +79,10 @@ const Profile = () => {
        <path d="M256 295.1c14.8 0 28.7-5.8 39.1-16.4L452 119c-5.5-4.4-12.3-7-19.8-7H79.9c-7.5 0-14.4 2.6-19.8 7L217 278.7c10.3 10.5 24.2 16.4 39 16.4z"></path>
      </svg>
      </Link>
+
      <Link to='https://docs.google.com/document/d/10-VKW3Xu2RJUaPW5jpF-jOZZkLcm_LivcC2M4Cldnxk/edit?usp=sharing'>
        <button className='text-sm text-[#000] font-semibold bg-[#fff] focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground hover:bg-[#1a58b7] group  px-[1.8px] xl:px-1 xs:w-fit flex items-center gap-2 bg-card rounded-md' > CV</button>
-       </Link>
+      </Link>
      </div>
      </div> 
    </div>
