@@ -65,17 +65,11 @@ const Projects = () => {
   return (
     <div>
          <section className="">
-        <header className="flex justify-between items-center mb-8">
-        <Link to='/' className="flex border text-sm text-[#a1a1aa] font-semibold bg-[#212121] focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground hover:bg-[#1a58b7] group p-2 xl:p-2 xl:px-4 xs:w-fit flex items-center gap-2 bg-card rounded-md">       
-             <span>
-                / home
-             </span>
-             {/* <p>home</p> */}
-          </Link> 
-          <h1 className="text-white text-xl font-semibold opacity-95">Projects</h1>
+        <header className="mb-8">
+          <h1 className="text-white text-center  text-xl font-semibold opacity-95">Projects</h1>
         </header>
 
-        <div to="" className=" gap-4 grid place-items-center  xl:grid-rows-2 gap-6 relative">
+        <div to="" className=" grid place-items-center  xl:grid-rows-2 gap-6 relative">
           {projects.map((project, i) => {
             return (
               <Link to={project.demoPreview} className="xl:flex items-center w-[%] p-2 gap-4 rounded-xl bg- hover:bg-[#12100E]">

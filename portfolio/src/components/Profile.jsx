@@ -12,11 +12,10 @@ const Profile = () => {
      <div className="">
        <img className="shrink-0 w-[20%] rounded-[50%] xs:w-[10%]" src={img} alt="" />
      </div>
-     <div className="flex mt-4 text-white items-center gap-1">
-       <div className="">
+     <div className="flex mt-4 text-white items-center gap-18">
+       <div className="flex gap-2">
            <h1 className="text-[20px] text-nowrap font-semibold xs:text-2xl">Essuon Emmanuel</h1>
-       </div>
-       {/* social icons */}
+             {/* social icons */}
        <div className="flex items-center gap-1">
      <img src={vertifiedBadge} className="w-[12%]" alt="" /> 
 
@@ -80,19 +79,22 @@ const Profile = () => {
      </svg>
      </Link>
 
-     <Link to='https://docs.google.com/document/d/10-VKW3Xu2RJUaPW5jpF-jOZZkLcm_LivcC2M4Cldnxk/edit?usp=sharing'>
-       <button className='text-sm text-[#000] font-semibold bg-[#fff] focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground hover:bg-[#1a58b7] group  px-[1.8px] xl:px-1 xs:w-fit flex items-center gap-2 bg-card rounded-md' > CV</button>
-      </Link>
+
      </div>
+       </div>
+     
+    
      </div> 
    </div>
      <article className="flex flex-col gap-1 t text-muted-foreground text-md">
        <p className=" text-[#a1a1a1] xs:text-white/85 font-semibold">
          I'm a Front-end Developer and I Create Web Development Content.
        </p>
-
-       
+     
      </article>
+     <Link to='https://docs.google.com/document/d/10-VKW3Xu2RJUaPW5jpF-jOZZkLcm_LivcC2M4Cldnxk/edit?usp=sharing'>
+     <button className="mt-4 inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#1D6CE1] text-primary-foreground hover:bg-[#1D6CE1]/90 h-11 rounded-md px-8 w-full xs:w-40">Download My Resume</button>
+     </Link>
        </main>
     </section>  
   )
