@@ -80,12 +80,12 @@ const Home = () => {
       <section className="my-8">
         <header className="flex justify-between items-center mb-5">
           <h1 className="text-white text-xl font-semibold opacity-95">Projects</h1>
-          <Link to='/projects' className="flex border text-sm text-[#a1a1aa] font-semibold bg-[#212121] focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground hover:bg-[#1a58b7] group p-2 xl:p-2 xl:px-4 xs:w-fit items-center gap-2 bg-card rounded-md">
+          {/* <Link to='/projects' className="flex border text-sm text-[#a1a1aa] font-semibold bg-[#212121] focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground hover:bg-[#1a58b7] group p-2 xl:p-2 xl:px-4 xs:w-fit items-center gap-2 bg-card rounded-md">
             <p>View all</p>
              <span>
              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-5 group-hover:translate-x-1 duration-200"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
              </span>
-          </Link>
+          </Link> */}
         </header>
 
         <div to="" className="  grid  xl:grid-cols-2 gap-6 relative">
