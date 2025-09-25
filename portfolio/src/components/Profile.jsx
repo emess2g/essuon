@@ -1,10 +1,13 @@
 import React from 'react'
+import { getResume } from '../utils';
+import { Document} from 'react-pdf';
 import { Link } from 'react-router-dom';
 import img from "../assets/img.jpg";
 import vertifiedBadge from '../assets/verified-badge.webp'
 
 const Profile = () => {
 
+    // const pdfFile = 'C:\Users\user\Documents\Essuon Emma\Emmanuel Essuon.pdf';
   return (
     <section>
     <main className="mt-6 flex flex-col"  >
@@ -92,9 +95,11 @@ const Profile = () => {
        </p>
      
      </article>
-     <Link to='https://docs.google.com/document/d/10-VKW3Xu2RJUaPW5jpF-jOZZkLcm_LivcC2M4Cldnxk/edit?usp=sharing'>
-     <button className="mt-4 inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#1D6CE1] text-primary-foreground hover:bg-[#1D6CE1]/90 h-11 rounded-md px-8 w-full xs:w-40">Download My Resume</button>
-     </Link>
+     {/* <Link to=''>
+     <button className="mt-4 inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-[#1D6CE1] text-primary-foreground hover:bg-[#1D6CE1]/90 h-11 rounded-md px-8 w-full xs:w-40">
+          <Document file={`file:///C:/Users/user/Documents/Essuon%20Emma/Emmanuel%20Essuon.pdf`}/>
+     Download My Resume</button>
+     </Link> */}
        </main>
     </section>  
   )
